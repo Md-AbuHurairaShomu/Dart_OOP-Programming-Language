@@ -1,0 +1,18 @@
+void main() {
+ Shomu s= new Shomu();
+  s.disp();
+}
+class Shomu {
+  // field
+  String Fullname = "Md Abu Huraira";
+  String Adress= "Dhaka";
+  int age = 23;
+
+
+  // function
+  void disp() {
+    print(Fullname);
+    print(Adress);
+    print(age);
+  }
+}
